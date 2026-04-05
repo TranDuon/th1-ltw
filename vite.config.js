@@ -15,5 +15,7 @@ export default defineConfig({
   server: {
     host: true,
     port: 3000,
+    // CodeSandbox / preview URL (*.csb.app) — Vite 5+ mặc định chặn host lạ
+    allowedHosts: true,
   },
 });
