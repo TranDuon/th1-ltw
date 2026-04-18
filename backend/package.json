@@ -1,0 +1,30 @@
+{
+  "name": "photo-sharing-server",
+  "version": "1.0.0",
+  "description": "Lab 2 backend for the photo sharing app",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "db:load": "node ./db/dbLoad.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codesandbox-app/static-template.git"
+  },
+  "keywords": [],
+  "author": "Ives van Hoorne",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codesandbox-app/static-template/issues"
+  },
+  "homepage": "https://github.com/codesandbox-app/static-template#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "cors": "2.8.5",
+    "dotenv": "16.4.5",
+    "express": "4.19.2",
+    "mongoose": "8.3.3"
+  }
+}
